@@ -1,0 +1,42 @@
+body{
+background-color:#2f3542;
+}
+.ecss{
+  border:2px solid #9e3b42;
+}
+.ehtml{
+  border:2px solid #9e3b42;
+}
+.ejs{
+  border:2px solid #9e3b42;
+}
+.ephp{
+  border:2px solid #9e3b42;
+}
+.tcss{
+  font-size:16px;
+  color:green;
+  display:none;
+}
+.ecss:hover ~ .tcss{display:block;}
+.thtml{
+  color:green;
+  display:none;
+}
+.ehtml:hover ~ .thtml{display:block;}
+.tjs{
+  display:none;
+  color:green;
+}
+.ejs:hover ~ .tjs{display:block;}
+.tphp{
+  display:none;
+  color:green;
+}
+.ephp:hover ~ .tphp{display:block;}
+.ecss{
+  margin-left:500px;
+}
+#lists{
+  color:#9ab9ab;
+}
